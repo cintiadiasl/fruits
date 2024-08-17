@@ -1,0 +1,66 @@
+body {
+  background-color: yellowgreen;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: blueviolet;
+  font-family: sans-serif;
+  text-align: center;
+  margin-bottom: -70px;
+} 
+
+ul {
+  position: relative;
+  width: 450px;
+  margin: 100px auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, .1);
+  padding: 10px 20px;
+  color: #fff;
+  margin: 5px 0;
+  transition: background-color .5;
+  border-radius: 10px;
+}
+
+ul li:hover {
+  transform: scale(1.0);
+  background: blueviolet;
+  border-radius: 10px;
+}
+
+span img {
+  width: 75px;
+  margin-left: 10px;
+}
+
+.fruit, .price{
+  margin: 0 10px;
+  text-align: left;
+}
+
+.price {
+  margin-left: auto;
+}
+
+footer {
+  text-align: center;
+  font-family: sans-serif;
+  color: aliceblue;
+  font-size: 12px;
+  margin-top: -70px;
+  margin-bottom: 20px;
+}
